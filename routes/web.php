@@ -15,3 +15,4 @@ use App\Http\Controllers\SiteController;
 
 Route::get('/', [SiteController::class, 'index'])->name('site.index');
 Route::get('/about-us', [SiteController::class, 'about'])->name('site.about');
+Route::get('/coffee', [SiteController::class, 'coffee'])->name('site.coffee');

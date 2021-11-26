@@ -19,7 +19,7 @@ a{
 
 header{
     display: flex;
-    padding: 10px 20px;
+    padding: 25px 20px;
     border-bottom: 1px solid #ccc;
     box-shadow: -5px 5px 10px -10px #2d3748;
 }
@@ -210,6 +210,18 @@ footer .copyrights{
 .container-about a:hover{
     background: rgba(0, 117, 74, 0.1);
 }
+.container-about a.solid{
+    background: rgba(0, 117, 74, 1);
+    color: #fff;
+}
 .container-about nav{
     margin-bottom: 90px;
+}
+.container-about .note{
+    margin: 0 0 30px 0;
+}
+.container-about .note p{
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 25px;
 }

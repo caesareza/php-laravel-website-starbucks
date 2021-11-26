@@ -6,6 +6,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;600&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" href="{{ \Illuminate\Support\Facades\URL::asset('/images/favicon.ico') }}" type="image/x-icon">
+    <link rel="icon" href="{{ \Illuminate\Support\Facades\URL::asset('/images/favicon.ico') }}" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -35,7 +37,7 @@
                     <h3>About Us</h3>
                     <ul>
                         <li><a href="{{ route('site.about') }}">Our Company</a></li>
-                        <li><a href="#">Our Coffee</a></li>
+                        <li><a href="{{ route('site.coffee') }}">Our Coffee</a></li>
                         <li><a href="#">Stories and News</a></li>
                         <li><a href="#">Starbucks Archive</a></li>
                         <li><a href="#">Investor Relations</a></li>
