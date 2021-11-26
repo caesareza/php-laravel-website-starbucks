@@ -3,7 +3,7 @@ body{
     font-family: 'Hind Siliguri', sans-serif;
 }
 
-ul, li, p, h1, h2, h3, body, html{
+ul, li, p, h1, h2, h3, body, html, figure{
     padding: 0;
     margin: 0;
 }
@@ -181,4 +181,35 @@ footer .sitemap .list ul li a{
 footer .copyrights{
     padding: 10px 0 0;
     color: #666;
+}
+
+.container-about{
+    width: 720px;
+    margin: 0 auto;
+}
+.container-about figure img{
+    width: 100%;
+}
+.container-about h1, .container-about h2{
+    margin: 20px 0;
+    line-height: 60px;
+}
+.container-about p{
+    margin-bottom: 30px;
+    font-size: 19px;
+    line-height: 33px;
+}
+.container-about a{
+    border: 1px solid rgb(0, 117, 74);
+    padding: 5px 15px;
+    border-radius: 20px;
+    color: rgb(0, 117, 74);
+    font-weight: bold;
+    transition: 0.5s;
+}
+.container-about a:hover{
+    background: rgba(0, 117, 74, 0.1);
+}
+.container-about nav{
+    margin-bottom: 90px;
 }
