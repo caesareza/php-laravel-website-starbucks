@@ -8,8 +8,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;600&display=swap" rel="stylesheet" />
     <link rel="shortcut icon" href="{{ \Illuminate\Support\Facades\URL::asset('/images/favicon.ico') }}" type="image/x-icon">
     <link rel="icon" href="{{ \Illuminate\Support\Facades\URL::asset('/images/favicon.ico') }}" type="image/x-icon">
+    <script type="text/javascript" src="{{ mix('/js/app.js') }}"></script>
 </head>
 <body>
+    <section id="statusjaringan" class=""></section>
     <header>
         <ul class="kiri">
             <li>

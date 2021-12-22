@@ -22,6 +22,9 @@ header{
     padding: 25px 20px;
     border-bottom: 1px solid #ccc;
     box-shadow: -5px 5px 10px -10px #2d3748;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 header .kiri, header .kanan{
     display: flex;
@@ -225,5 +228,17 @@ footer .copyrights{
     font-size: 14px;
     margin-bottom: 10px;
     line-height: 25px;
+}
+#statusjaringan.online{
+    background: green;
+    color: #cbd5e0;
+    padding: 20px;
+    text-align: center;
+}
+#statusjaringan.offline{
+    background: tomato;
+    color: cornsilk;
+    padding: 20px;
+    text-align: center;
 }
 

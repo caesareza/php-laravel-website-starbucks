@@ -1,7 +1,7 @@
 <x-layout>
     <x-slot name="title">About Our Company</x-slot>
     <section class="container-about">
-        <h1>About Our Company</h1>
+        <h1>Our Company</h1>
         <figure>
             <img src="{{ \Illuminate\Support\Facades\URL::asset('/images/our-company/oc-1.jpg') }}"
                  alt="our company picture"/>
